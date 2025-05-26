@@ -19,7 +19,7 @@ BillSplit is a modern, intuitive web application designed to simplify the proces
 ## 🛠️ Technologies
 
 - **Frontend:** [React](https://reactjs.org/)
-- **Styling:** HTML5, CSS3, (optionally add your CSS framework if used)
+- **Styling:** HTML5, CSS3
 - **API:** [ExchangeRate API](https://api.exchangerate-api.com) for up-to-date currency conversion
 - **Data Persistence:** Browser LocalStorage
 
@@ -58,6 +58,13 @@ To run BillSplit locally:
 4. **Currency Selection:** Choose your preferred currency (conversion handled automatically).
 5. **Review Results:** Instantly view a breakdown of who owes what.
 6. **Save/Resume:** Your session is automatically saved in your browser.
+
+---
+
+## 🌐 Live Demo
+
+Try BillSplit instantly with no setup required:  
+👉 [https://bill-split-gilt.vercel.app/](https://bill-split-gilt.vercel.app/)
 
 ---
 
