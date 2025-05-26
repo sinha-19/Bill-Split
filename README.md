@@ -1,40 +1,88 @@
 # BillSplit
 
-A simple web application to help you split bills among friends and family.
+BillSplit is a modern, intuitive web application designed to simplify the process of splitting bills among friends, family, or colleagues. Whether it’s group dinners, trips, or shared expenses, BillSplit ensures fair and transparent settlements with ease.
 
-## Features
+---
 
-- Split bills among multiple people
-- Add items with costs
-- Assign items to individuals
-- Automatic calculation of who owes what
-- Currency conversion
-- Save session data locally
+## 🚀 Features
 
-## Technologies Used
+- **Dynamic Bill Splitting:** Effortlessly split bills among multiple participants.
+- **Itemized Entries:** Add unlimited items with individual costs.
+- **Smart Assignment:** Assign each item to one or more individuals for precise calculations.
+- **Automated Calculations:** Instantly determine who owes what, including totals per person.
+- **Multi-Currency Support:** Integrated currency conversion using real-time data from ExchangeRate API.
+- **Session Persistence:** Save and resume sessions using local storage—never lose your progress.
+- **User-Friendly Interface:** Clean, responsive UI built with React and modern web standards.
 
-- React
-- HTML/CSS
-- ExchangeRate API for currency conversion
-- LocalStorage for data persistence
+---
 
-## Installation
+## 🛠️ Technologies
 
-1. Clone the repository
-2. Run `npm install` to install dependencies
-3. Run `npm start` to start the development server
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+- **Frontend:** [React](https://reactjs.org/)
+- **Styling:** HTML5, CSS3, (optionally add your CSS framework if used)
+- **API:** [ExchangeRate API](https://api.exchangerate-api.com) for up-to-date currency conversion
+- **Data Persistence:** Browser LocalStorage
 
-## Usage
+---
 
-1. Enter the number of people splitting the bill
-2. Add their names
-3. Add items and their costs
-4. Assign items to people
-5. View the results of who owes what
+## 📦 Installation
 
-## API Used
+To run BillSplit locally:
 
-This project uses the [ExchangeRate API](https://api.exchangerate-api.com) for currency conversion.
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/billsplit.git
+   cd billsplit
+   ```
 
-## Project made by Saket
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the Development Server**
+   ```bash
+   npm start
+   ```
+
+4. **Open in Your Browser**
+   Visit [http://localhost:3000](http://localhost:3000) to get started.
+
+---
+
+## 📝 Usage Guide
+
+1. **Set Participants:** Enter the number of people involved in the split and their names.
+2. **Add Items:** Input items and their respective costs.
+3. **Assign Items:** Allocate each item to relevant individuals.
+4. **Currency Selection:** Choose your preferred currency (conversion handled automatically).
+5. **Review Results:** Instantly view a breakdown of who owes what.
+6. **Save/Resume:** Your session is automatically saved in your browser.
+
+---
+
+## 🌍 API Integration
+
+BillSplit leverages the [ExchangeRate API](https://api.exchangerate-api.com) to provide seamless and accurate currency conversions.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to collaborate, please fork this repository and submit a pull request. For major changes, open an issue first to discuss your ideas.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👤 Author
+
+Developed and maintained by [Saket](https://github.com/sinha-19).
+
+---
+
+> _BillSplit — Making group expenses simple, fair, and transparent._
