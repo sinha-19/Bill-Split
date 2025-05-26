@@ -73,12 +73,6 @@ Contributions are welcome! If you'd like to collaborate, please fork this reposi
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
 ## 👤 Author
 
 Developed and maintained by [Saket](https://github.com/sinha-19).
