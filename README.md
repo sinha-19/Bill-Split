@@ -4,6 +4,37 @@ BillSplit is a modern, intuitive web application designed to simplify the proces
 
 ---
 
+## 🗺️ Workflow Diagram
+
+```mermaid
+flowchart TD
+    Browser[User Browser or PWA]
+    Browser --> Index[index.html]
+    Browser --> Manifest[manifest.json]
+    Browser --> SW[Service Worker]
+    SW --> Cache[Cached Assets]
+    Cache --> Index
+
+    Index --> Main[main.tsx]
+    Main --> App[App Component]
+    App --> Routing[Routing]
+    App --> Components[UI Components]
+    Components --> Header[Header]
+    Components --> Home[HomePage]
+    Components --> CreateSplit[CreateSplitPage]
+    Components --> Result[ResultPage]
+    Components --> CurrencySel[CurrencySelector]
+
+    CurrencySel --> CurrencyUtils[currencyUtils]
+    CreateSplit --> StorageUtils[storageUtils]
+    Result --> StorageUtils
+
+    StorageUtils --> LocalStorage[LocalStorage]
+    CurrencyUtils --> ExchangeRateAPI[ExchangeRate API]
+```
+
+---
+
 ## 🚀 Features
 
 - **Dynamic Bill Splitting:** Effortlessly split bills among multiple participants.
@@ -19,7 +50,7 @@ BillSplit is a modern, intuitive web application designed to simplify the proces
 ## 🛠️ Technologies
 
 - **Frontend:** [React](https://reactjs.org/)
-- **Styling:** HTML5, CSS3
+- **Styling:** HTML5, CSS3 (optionally Tailwind)
 - **API:** [ExchangeRate API](https://api.exchangerate-api.com) for up-to-date currency conversion
 - **Data Persistence:** Browser LocalStorage
 
