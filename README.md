@@ -1,4 +1,4 @@
-# BillSplit
+ BillSplit
 
 BillSplit is a modern, intuitive web application designed to simplify the process of splitting bills among friends, family, or colleagues. Whether it’s group dinners, trips, or shared expenses, BillSplit ensures fair and transparent settlements with ease.
 
